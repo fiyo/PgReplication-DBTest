@@ -2,6 +2,8 @@
 
 本项目是通过 Java 程序，实现实时获取 PostgreSQL 数据库表中数据变更的示例项目。
 
+本项目仅在 PostgreSQL 9.x 版本测试通过，其它版本请自行测试修改。
+
 <p style="text-align: center">
   <a href="https://choosealicense.com/licenses/mit">
 	<img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
@@ -72,9 +74,13 @@ COMMIT 1051 (at 2024-06-03 19:07:34.927343+08)
 
 ## 关于我
 
-如果对您有用，就亮个小星星支持一下吧。更多数据库知识可关注微信公众号：山东Oracle用户组
+如果对您有用，就亮个小星星支持一下吧。
 
-**作者：Yunjie Ge**
+更多数据库知识可关注微信公众号：山东Oracle用户组
+
+**作者：** Grainger
+**邮箱：** sdfiyon@gmail.com
+
 
 
 
