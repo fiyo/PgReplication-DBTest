@@ -59,7 +59,7 @@ mvn clean package
 测试可以通过以下两种方法中的一种：
 ### 1、在开发工具中运行项目中的 PgReplicationTest.java 类
 
-### 2、编译后运行 target文件夹中的 jar 文件
+### 2、编译后运行 target 文件夹中的 jar 文件
 ```cmd
 java -jar target/PgReplicationTest.jar
 ```
