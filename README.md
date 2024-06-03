@@ -57,11 +57,11 @@ mvn clean package
 ## 启动测试
 
 测试可以通过以下两种方法中的一种：
-### 1、在开发工具中运行项目中的 PgReplicationTest.java 类
+### 1、在开发工具中运行项目中的 PgReplication.java 类
 
 ### 2、编译后运行 target 文件夹中的 jar 文件
 ```cmd
-java -jar target/PgReplicationTest.jar
+java -jar target/PgReplication.jar
 ```
 
 成功运行后，在数据库中插入一条数据进行测试，例如执行如下SQL：
