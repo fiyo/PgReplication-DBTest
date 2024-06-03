@@ -48,11 +48,23 @@ CONNECTION LIMIT 8 ENCRYPTED PASSWORD 'repuser';
     private static String PASSWORD = "repuser";
 ```
 
+## 编译项目
+本项目使用 maven 进行编译，请确保已经正确安装 maven。
+```cmd
+mvn clean package
+```
+
 ## 启动测试
 
-运行 PgReplicationDBTest 项目中的 PgReplicationTest.java 类中的，在启动完成后，在数据库表中插入数据即可。
+测试可以通过以下两种方法中的一种：
+### 1、在开发工具中运行项目中的 PgReplicationTest.java 类
 
-例如在数据库中插入一条数据执行如下SQL：
+### 2、编译后运行 target文件夹中的 jar 文件
+```cmd
+java -jar target/PgReplicationTest.jar
+```
+
+成功运行后，在数据库中插入一条数据进行测试，例如执行如下SQL：
 ```sql
 insert into test (id, name) values ('1','a');
 ```
