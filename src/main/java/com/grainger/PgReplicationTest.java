@@ -1,4 +1,4 @@
-package com.testdb;
+package com.grainger;
 
 import org.apache.log4j.Logger;
 import org.postgresql.PGConnection;
