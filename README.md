@@ -1,10 +1,11 @@
-# PgReplication-DBTest  用Java获取PostgreSQL变更数据
+# PgReplication-DBTest  
 
+用Java获取PostgreSQL变更数据
 
 <p style="text-align: center">
   <a href="https://choosealicense.com/licenses/mit">
-		<img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
-	</a>
+	<img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
+  </a>
 </p>
 
 ## 基础知识
@@ -17,9 +18,8 @@ PostgreSQL数据库提供了两种复制方式：物理复制和逻辑复制。
 #### 逻辑复制
 PostgreSQL 逻辑复制是事务级别的复制，使用订阅复制槽技术，通过在订阅端回放 WAL 日志中的逻辑条目。
 
-物理复制和逻辑复制有各自的适用场景以及优缺点，这部分不是本篇讨论范围。
 
-本篇我们主要介绍如何通过 Java 程序，实现 PostgreSQL 的逻辑复制。
+项目是通过 Java 程序，实现 PostgreSQL 的逻辑复制的示例项目。
 
 ## PostgreSQL 配置
 要使用 PostgreSQL 的逻辑复制功能，首先需要对数据库进行相应的配置以支持逻辑复制功能。
