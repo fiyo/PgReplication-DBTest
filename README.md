@@ -1,6 +1,6 @@
 # PgReplication-DBTest  
 
-用Java获取PostgreSQL变更数据
+本项目是通过 Java 程序，实现实时获取 PostgreSQL 数据库表中数据变更的示例项目。
 
 <p style="text-align: center">
   <a href="https://choosealicense.com/licenses/mit">
