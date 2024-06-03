@@ -15,7 +15,6 @@ public class PostgresConnection
 {
     private static Logger logger;
     Connection dbConnection;
-    Connection dbAuxConnection;
     PGConnection replConnection;
 
     private static String URL = "jdbc:postgresql://localhost:5432/postgres";

@@ -14,7 +14,7 @@ import java.sql.*;
  * @Date: 2024-06-03 15:25
  * @E-mail: sdfiyon@gmail.com
  */
-public class PGReplicationTest {
+public class PgReplicationTest {
     private static Logger logger;
     private PostgresConnection conn;
     protected PGConnection replConnection;
@@ -22,10 +22,10 @@ public class PGReplicationTest {
     protected String startLSN;
 
     static {
-        PGReplicationTest.logger = Logger.getLogger(PGReplicationTest.class);
+        PgReplicationTest.logger = Logger.getLogger(PgReplicationTest.class);
     }
 
-    public PGReplicationTest() {
+    public PgReplicationTest() {
         this.conn = new PostgresConnection();
     }
 
@@ -156,7 +156,7 @@ public class PGReplicationTest {
 
     public static void main(String[] args) throws Exception {
         String slotName = "test_slot";//复制槽名称
-        PGReplicationTest test = new PGReplicationTest();
+        PgReplicationTest test = new PgReplicationTest();
         test.createSlot(slotName);
         test.startSlot(slotName);
         while(true) {
