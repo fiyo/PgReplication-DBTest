@@ -48,7 +48,19 @@ CONNECTION LIMIT 8 ENCRYPTED PASSWORD 'repuser';
 
 ## 启动测试
 
-运行 PgReplicationTest.java 类进行测试。
+运行 PgReplicationDBTest 项目中的 PgReplicationTest.java 类中的，在启动完成后，在数据库表中插入数据即可。
+
+例如在数据库中插入一条数据执行如下SQL：
+```sql
+insert into test (id, name) values ('1','a');
+```
+
+程序会输出如下内容：
+```text
+BEGIN 1051
+table public.test: INSERT: id[character varying]:'1' name[character varying]:'a'
+COMMIT 1051 (at 2024-06-03 19:07:34.927343+08)
+```
 
 ## 贡献指南
 
