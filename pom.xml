@@ -4,7 +4,7 @@
         xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.grainger</groupId>
-    <artifactId>PgReplicationDBTest</artifactId>
+    <artifactId>PgReplication</artifactId>
     <version>0.1</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -36,7 +36,7 @@
                   <goal>repackage</goal>
                 </goals>
                 <configuration>
-                  <mainClass>com.grainger.PgReplicationTest</mainClass>
+                  <mainClass>com.grainger.PgReplication</mainClass>
                 </configuration>
               </execution>
             </executions>
